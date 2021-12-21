@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="source/form/css/style.css" rel="stylesheet">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="source/form/css/utile.css">
+	<link rel="stylesheet" type="text/css" href="source/form/css/contact.css">
+<!--===============================================================================================-->
+</head>
+
+<body>
+
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Registration</li>
+        </ol>
+        <h1>Registration</h1>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+      <div class="container-contact100">
+
+	
+			<form class="contact100-form validate-form" method="POST" >
+
+				<div class="wrap-input100 validate-input" data-validate="data must be filled">
+					<span class="label-input100">Nama</span>
+					<input id="name" type="text" class="input100" placeholder="Name" name="name" required autocomplete="name" autofocus>
+					
+					<span class="focus-input100"></span> 
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="data must be filled">
+					<span class="label-input100">Date of birth</span>
+					<input id="tanggal" type="date" class="input100"  name="tanggal" required autocomplete="tanggal" autofocus>
+					
+					<span class="focus-input100"></span> 
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="data must be filled">
+					<span class="label-input100">Email </span>
+					<input id="email" type="email" placeholder="Email" class="input100 " name="email"  required autocomplete="email">
+					
+					<span class="focus-input100"></span>
+				</div>
+
+
+				<div class="wrap-input100 validate-input" data-validate="data must be filled">
+					<span class="label-input100">Password</span>
+					<input id="password" class="input100" type="password" name="password" placeholder="Password" required autocomplete="new-password">
+					
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="data must be filled">
+					<span class="label-input100">Password confirm</span>
+					<input id="password-confirm" class="input100" type="password" name="password_confirmation" placeholder="Password confirm" required autocomplete="new-password">
+					<span class="focus-input100"></span>
+				</div>
+	
+				
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button type="submit" class="contact100-form-btn">
+							Send
+						</button>
+					</div>
+				</div>
+				<br>
+				
+			</form>
+
+			
+          </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+ 
+
+<script src="form/js/contact.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+  <!-- Vendor JS Files -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="source/form/js/main.js"></script>
+
+</body>
+
+</html>
